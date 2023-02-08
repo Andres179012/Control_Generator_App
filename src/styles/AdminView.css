@@ -1,0 +1,44 @@
+.content-global-access{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-access-list{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.content-form-control{
+    flex-wrap: wrap;
+    width: 25em;
+}
+
+.content-data-table{
+    flex-wrap: wrap;
+    width: 48em;
+    margin: 1em;
+}
+
+.form-control-container{
+    padding: 2em;
+    margin: 1em;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control-container input{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.form-control-container button{
+    width: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

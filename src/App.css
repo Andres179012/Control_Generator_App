@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@media screen and (max-width: 420px){
+    .content-global-card-home{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .content-card-home{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        margin-top: 1em;
+    }
+    .card-responsive-col-2{
+        width: 140px;
+        height: 130px;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        
+    }
+    .card-responsive-col-hidde{
+        display: none;
+        
+    }
+}

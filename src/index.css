@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.access_List div{
+    padding: 4px 4px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .access_List{
+        display: flex;
+        justify-content: left;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align:left ;
+        padding: 1em 2em 1em 2em;
+    }
+
+    .access_List div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        text-align:left ;
+        width: 100%;
+    }
+    .input-responsive{
+        width: 100%;
+    }
+    .content-btn-responsive{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .btn-form-responsive{
+        width: 100%;
+        justify-content: center;
+        margin-top: 1.5em;
+    }
+}

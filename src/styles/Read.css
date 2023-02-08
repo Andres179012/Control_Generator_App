@@ -1,0 +1,78 @@
+:root {
+  --main-bg-color: brown;
+}
+
+
+
+.updateTask {
+    /* create a modal */
+    display: flex;
+    flex-direction: column;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.086);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .modal-content {
+    /* create a modal */
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-access{
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (min-width: 640px) {
+    table {
+      display: inline-table !important;
+    }
+
+    thead tr:not(:first-child) {
+      display: none;
+    }
+
+  }
+
+  td:not(:last-child) {
+    border-bottom: 0;
+  }
+
+  th:not(:last-child) {
+    border-bottom: 2px solid rgba(0, 0, 0, .1);
+  }
+
+
+
+  .icon-red {
+    color: blue;
+  }
+
+  .icon-blue {
+    color: green;
+  }
+
+  .icon-copy {
+    color: #00bcd4;
+  }
+
+  .actions-buttons{
+    width: 20px;
+    height: 20px;
+  }
